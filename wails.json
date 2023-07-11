@@ -1,0 +1,14 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "version": "v1.0.2",
+  "name": "tcp-transmit",
+  "outputfilename": "tcp-transmit",
+  "frontend:install": "npm install",
+  "frontend:build": "npm run build",
+  "frontend:dev:watcher": "npm run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "ShunDa Wang",
+    "email": "1044381039@qq.com"
+  }
+}
